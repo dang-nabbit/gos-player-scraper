@@ -3,7 +3,6 @@
 // @namespace    https://www.gatesofsurvival.com
 // @version      0.80
 // @description  try to take over the world!
-// @homepage     https://github.com/dang-nabbit/gos-scraper
 // @author       Opal
 // @match        https://www.gatesofsurvival.com/game/index.php?page=main
 // @grant        none
@@ -50,10 +49,11 @@
         zoop = $("#page > center i");
         if (zoop.length > 0) {
             zoopText = zoop.first().text();
-            if (zoopText !== 'Total Logins') {
-                skillValues.push(zoopText);
-                console.log(zoopText);
+            if (zoopText === 'Total Logins') {
+                zoopText = '';
             }
+            skillValues.push(zoopText);
+            console.log(zoopText);
         }
 
         var outputForm = "<form><input type = \"text\" id=\"outputform\" value=\"\">";
