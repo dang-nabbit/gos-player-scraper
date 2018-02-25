@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         GOS scraper
 // @namespace    https://www.gatesofsurvival.com
+// @homepage     https://github.com/dang-nabbit/gos-scraper
 // @version      0.80
 // @description  try to take over the world!
 // @author       Opal
