@@ -7,7 +7,7 @@
 // @author       Opal
 // @match        https://www.gatesofsurvival.com/game/index.php?page=main
 // @grant        none
-// @downloadURL  https://github.com/dang-nabbit/gos-scraper/gos-scraper.user.js
+// @downloadURL  https://github.com/dang-nabbit/gos-scraper/raw/master/gos-scraper.user.js
 // ==/UserScript==
     extraButtonCode = "<div id=\"extra2\" class = \"classy\"><li class=\"classy\">Opal's Addons</li></div>";
     outputButtonCode ="<div id=\"output2\" class = \"classy\"><li class=\"classy\">---</li></div>";
